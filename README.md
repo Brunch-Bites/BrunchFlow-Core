@@ -1,10 +1,3 @@
-graph LR
-    User[Consumer App] --> Gateway[API Gateway]
-    Gateway --> Orchestrator{BrunchFlow Orchestrator}
-    Orchestrator --> Agent1[Demand Predictor Agent]
-    Orchestrator --> Agent2[Fleet Router Agent]
-    Agent1 --> DB[(Real-time Vector DB)]
-    Agent2 --> Cloud((Cloud Compute Cluster))
 # 🥞 BrunchFlow AI: Autonomous Gastronomy Orchestrator
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
