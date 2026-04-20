@@ -1,0 +1,16 @@
+services:
+  agents:
+    build:
+      context: ../../
+      dockerfile: ./deploy/docker/Dockerfile.agents
+    environment:
+      - APP_ENV=production
+    restart: always
+
+  optimizer:
+    build:
+      context: ../../
+      dockerfile: ./deploy/docker/Dockerfile.optimizer
+    environment:
+      - APP_ENV=production
+    restart: always
