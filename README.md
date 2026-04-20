@@ -1,28 +1,26 @@
-# BrunchFlow-Core
+# 🥞 BrunchFlow AI: Autonomous Gastronomy Orchestrator
 
-> The Multi-Agent Orchestration & Logistics Optimization Engine
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Tech](https://img.shields.io/badge/Stack-Multi--Agent-FF6B6B)](https://getbrunch.xyz)
 
-BrunchFlow-Core is the central engine of the BrunchFlow ecosystem, designed to coordinate autonomous agents and optimize delivery logistics in real-time.
+**BrunchFlow** is the flagship intelligence engine by **Brunch Bites LLC**. We are redefining urban food systems by integrating high-performance Multi-Agent systems with real-time supply chain logistics.
 
-## 🚀 Vision
-To build a highly efficient, scalable, and intelligent logistics platform that leverages the power of multi-agent systems to solve complex delivery optimization challenges.
+## 🚀 The Vision
+In 2026, food systems should be as smart as the people they feed. BrunchFlow leverages Large Language Models (LLMs) and Edge Computing to solve three core challenges:
+- **Demand Forecasting:** Predictive AI to reduce ingredient waste by 40%.
+- **Logistics Mesh:** Real-time route optimization for autonomous delivery fleets.
+- **Flavor RAG:** A Retrieval-Augmented Generation system for hyper-local menu optimization.
 
-## 📁 Repository Structure
-- `src/agents/`: Multi-agent coordination logic and agent definitions.
-- `src/optimizer/`: Core path-finding and delivery optimization algorithms.
-- `deploy/`: Infrastructure configuration templates.
-  - `terraform/`: Cloud resources as code.
-  - `docker/`: Container definitions and orchestration.
-- `docs/`: Technical documentation and architecture diagrams.
+## 🛠 Tech Stack (Cloud-Native)
+Our architecture is designed to scale on global cloud infrastructure:
+- **Orchestration:** Kubernetes (K8s) with auto-scaling GPU clusters.
+- **AI Engine:** Distributed inference using AWS Bedrock & GCP Vertex AI.
+- **Data Layer:** Real-time vector indexing for regional flavor profiles.
 
-## 🛠️ Tech Stack
-- **AI**: Multi-agent Frameworks.
-- **Backend**: Python (FastAPI).
-- **Optimization**: Custom heuristics and path-finding algorithms.
-- **Infrastructure**: Terraform, Docker, GitHub Actions.
+## 🗺 Roadmap
+- [ ] **Phase 1:** Multi-agent coordination protocol alpha.
+- [ ] **Phase 2:** Integration with global logistics APIs.
+- [ ] **Phase 3:** Beta launch in select metropolitan areas.
 
-## 📖 Getting Started
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md) to start developing.
-
-## 📄 License
-This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
+---
+© 2026 Brunch Bites LLC. Contact: [contact@getbrunch.xyz](mailto:contact@getbrunch.xyz)
