@@ -45,14 +45,28 @@ graph LR
 - 🍱 **Flavor RAG:** Retrieval-Augmented Generation for hyper-local menu optimization based on trending flavor profiles.
 - 🔗 **Multi-Agent Protocol:** Seamless coordination between demand, inventory, and fulfillment agents.
 
-## 🛠 Tech Stack (Cloud-Native)
+## 🛠 Tech Stack (Cloud-Native & Multi-Cloud)
 
-BrunchFlow is architected for high-performance deployment on global cloud infrastructure:
+BrunchFlow is architected for seamless orchestration across heterogeneous cloud environments, ensuring high availability and optimized resource utilization.
 
-- **Compute:** [AWS EKS](https://aws.amazon.com/eks/) / [GCP GKE](https://cloud.google.com/kubernetes-engine/) (Enterprise Kubernetes)
-- **AI Infrastructure (LLMs):** [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service/) (GPT-5/Next-Gen) / [AWS Bedrock](https://aws.amazon.com/bedrock/) (Claude 3.5 Sonnet)
-- **Data Layer:** Managed [PostgreSQL](https://cloud.google.com/sql/docs/postgres) with [pgvector](https://github.com/pgvector/pgvector) extensions
-- **Orchestration:** Docker, Kubernetes (Auto-scaling GPU clusters), and Terraform
+### Cloud Infrastructure
+
+- **Core Orchestration:** [AWS EKS](https://aws.amazon.com/eks/) • [GCP GKE](https://cloud.google.com/kubernetes-engine/) • [Azure AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/)
+- **High-Performance Compute:** [Oracle Cloud (OCI) GPU Instances](https://www.oracle.com/cloud/compute/gpu/) • [DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes)
+- **Data Layer:** Managed [PostgreSQL](https://cloud.google.com/sql/docs/postgres) with [pgvector](https://github.com/pgvector/pgvector) for regional semantic indexing.
+
+### ⚡ AI & GPU Acceleration
+
+Our engine is optimized for high-throughput inference and real-time optimization, requiring dedicated hardware acceleration:
+
+- **Compute Framework:** [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) & [TensorRT](https://developer.nvidia.com/tensorrt) for low-latency engine execution.
+- **Inference Server:** Support for [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) to manage multi-model agent ensembles.
+- **Model Support:** Native integration with [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service/) (GPT-5) and [AWS Bedrock](https://aws.amazon.com/bedrock/) (Claude 3.5), along with locally-hosted Llama-3/Qwen clusters for data privacy.
+
+### Deployment & Orchestration
+
+- **Infrastructure as Code:** [Terraform](https://www.terraform.io/) for cross-cloud resource provisioning.
+- **Containerization:** [Docker](https://www.docker.com/) & [Helm](https://helm.sh/) for consistent deployment across OCI, Vultr, and hyperscalers.
 
 ## ⚡ Quick Start
 
