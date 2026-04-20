@@ -47,10 +47,12 @@ graph LR
 
 ## 🛠 Tech Stack (Cloud-Native)
 
-- **Backend:** Python (FastAPI) & TypeScript (Node.js)
-- **AI Infrastructure:** AWS Bedrock, GCP Vertex AI, and local GPU clusters.
-- **Data layer:** Weaviate / Pinecone for vector indexing regional culinary data.
-- **Deployment:** Docker, Kubernetes (K8s), and Terraform-managed infrastructure.
+BrunchFlow is architected for high-performance deployment on global cloud infrastructure:
+
+- **Compute:** [AWS EKS](https://aws.amazon.com/eks/) / [GCP GKE](https://cloud.google.com/kubernetes-engine/) (Enterprise Kubernetes)
+- **AI Infrastructure (LLMs):** [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service/) (GPT-5/Next-Gen) / [AWS Bedrock](https://aws.amazon.com/bedrock/) (Claude 3.5 Sonnet)
+- **Data Layer:** Managed [PostgreSQL](https://cloud.google.com/sql/docs/postgres) with [pgvector](https://github.com/pgvector/pgvector) extensions
+- **Orchestration:** Docker, Kubernetes (Auto-scaling GPU clusters), and Terraform
 
 ## ⚡ Quick Start
 
